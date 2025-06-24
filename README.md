@@ -28,8 +28,9 @@ pip install -r requirements.txt
 ```
 
 3. Configura tu API Key:
-   - Edita el archivo `main.py`
-   - Reemplaza `"tu_api_key_aqui"` con tu API key real de Nebius
+   - Crea un archivo `.env` en la raíz del proyecto
+   - Añade una línea con `NEBIUS_API_KEY=<tu_api_key>`
+   - O exporta la variable de entorno `NEBIUS_API_KEY` antes de ejecutar el script
 
 ## 🎯 Uso
 
