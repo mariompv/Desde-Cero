@@ -1,4 +1,4 @@
-# AGENT_INICIO
+# Desde-Cero
 
 Un chatbot simple usando la API de Nebius AI Studio con el modelo Meta-Llama-3.1-70B-Instruct.
 
@@ -18,8 +18,8 @@ Un chatbot simple usando la API de Nebius AI Studio con el modelo Meta-Llama-3.1
 
 1. Clona el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/AGENT_INICIO.git
-cd AGENT_INICIO
+git clone https://github.com/tu-usuario/Desde-Cero.git
+cd Desde-Cero
 ```
 
 2. Instala las dependencias:
