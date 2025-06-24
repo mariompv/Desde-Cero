@@ -2,6 +2,9 @@ import os
 from openai import OpenAI
 from dotenv import load_dotenv
 
+# Carga tu API key desde un archivo `.env` o una variable de entorno.
+# Crea un archivo `.env` con `NEBIUS_API_KEY=<tu_api_key>` o exporta la variable
+# antes de ejecutar este script. No edites este archivo para agregar la clave.
 load_dotenv()
 
 api_key = os.getenv("NEBIUS_API_KEY")
