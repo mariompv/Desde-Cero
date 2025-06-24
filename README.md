@@ -27,10 +27,12 @@ cd AGENT_INICIO
 pip install -r requirements.txt
 ```
 
-3. Configura tu API Key:
-   - Crea un archivo `.env` en la raíz del proyecto
-   - Añade una línea con `NEBIUS_API_KEY=<tu_api_key>`
+3. Configura tu API Key (sin editar `main.py`):
+   - Crea un archivo `.env` en la raíz del proyecto y añade una línea con
+     `NEBIUS_API_KEY=<tu_api_key>`
    - O exporta la variable de entorno `NEBIUS_API_KEY` antes de ejecutar el script
+   - El programa leerá automáticamente esta variable; no es necesario modificar
+     `main.py`
 
 ## 🎯 Uso
 
