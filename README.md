@@ -61,3 +61,12 @@ Este proyecto es de código abierto y está disponible bajo la licencia MIT.
 ## 🤝 Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request. 
+## 🤖 Agente con LangGraph
+
+El archivo `agent.py` muestra un ejemplo de agente más completo construido con **LangGraph**. Este agente soporta herramientas adicionales como conversión de imágenes, operaciones matemáticas, creación de tablas y búsqueda en Internet y Wikipedia. Para ejecutarlo:
+
+```bash
+python agent.py
+```
+
+Es posible que necesites instalar dependencias adicionales listadas en `requirements.txt`. Debido a las restricciones de red de este entorno, algunas librerías pueden no estar disponibles durante la instalación.
